@@ -1074,29 +1074,43 @@
 						<div class="col-md-6">
 							<div class="row">
 								<div class="col-md-6">
-									<input type="text" class="input w-100" aria-labelledby="lbl-name"  value="الاسم" />
+									<label for="name" class="d-none"> name</label>
+									<input type="text" name="name" id="name" class="input w-100" aria-labelledby="lbl-name"  value="الاسم" />
 								</div>
 								<div class="col-md-6">
-									<input type="text" class="input w-100" aria-labelledby="lbl-company" value="الشركة" />
+									<label for="company" class="d-none"> company</label>
+									<input type="text"  name="company" id="company"  class="input w-100" aria-labelledby="lbl-company" value="الشركة" />
 								</div>
 								<div class="col-md-6">
-									<input type="text" class="input w-100" aria-labelledby="lbl-email" value="البريد الالكتروني" />
+									<label for="email" class="d-none"> company</label>
+									<input type="text"  name="email" id="email" class="input w-100" aria-labelledby="lbl-email" value="البريد الالكتروني" />
 								</div>
 								<div class="col-md-6">
-									<input type="text" class="input w-100"  aria-labelledby="lbl-company-location" value="موقع الشركة" />
+									<label for="location" class="d-none"> location</label>
+
+									<input type="text" name="location" id="location"  class="input w-100"  aria-labelledby="lbl-company-location" value="موقع الشركة" />
 								</div>
 
 								<div class="col-md-6">
-									<input type="text" class="input w-100"  aria-labelledby="lbl-phone" value="الهاتف" />
+									<label for="phone" class="d-none"> phone</label>
+
+									<input type="text"  name="phone" id="phone"  class="input w-100"  aria-labelledby="lbl-phone" value="الهاتف" />
 								</div>
 								<div class="col-md-6">
-									<input type="text" class="input w-100"  aria-labelledby="lbl-whatsapp" value="رقم الواتس" />
+									<label for="whatsapp" class="d-none"> whatsapp</label>
+
+									<input type="text"  name="whatsapp" id="whatsapp"  class="input w-100"  aria-labelledby="lbl-whatsapp" value="رقم الواتس" />
 								</div>
 								<div class="col-md-12">
-									<input type="text" class="input w-100"  aria-labelledby="lbl-title" value="الموضوع" />
+									<label for="titles" class="d-none"> titles</label>
+
+									<input type="text" name="titles" id="titles"  class="input w-100"  aria-labelledby="lbl-title" value="الموضوع" />
 								</div>
 								<div class="col-md-12">
+									<label for="message" class="d-none"> message</label>
+
 									<textarea
+									name="message" id="message"
 										type="text"
 										rows="6"
 										class="input w-100"
@@ -1214,7 +1228,7 @@
 										</g>
 									</svg>
 								</a>
-								<a href="#" class="social-button facebook"  aria-label="facebook>
+								<a href="#" class="social-button facebook"  aria-label="facebook" > 
 									<svg
 										version="1.1"
 										id="Layer_1"
